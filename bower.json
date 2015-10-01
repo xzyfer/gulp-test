@@ -1,0 +1,81 @@
+{
+  "name": "contests",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "^2.0.0",
+    "flight": "^1.0.0",
+    "vandamme-js": "git@github.com:99designs/vandamme-js.git#~0.0.4",
+    "asimov-core": "git@github.com:asimov/asimov-core.git#^1.0.0",
+    "asimov-forms": "git@github.com:99designs/asimov-forms#^3.0.0",
+    "asimov-typography": "git@github.com:99designs/asimov-typography#^2.0.0",
+    "asimov-off-canvas": "git@github.com:99designs/asimov-off-canvas#^2.1.1",
+    "asimov-list": "git@github.com:99designs/asimov-list#^1.0.0",
+    "asimov-panel": "git@github.com:99designs/asimov-panel#^2.0.0",
+    "asimov-flag": "git@github.com:99designs/asimov-flag#^2.0.0",
+    "asimov-alert": "git@github.com:99designs/asimov-alert#^3.0.0",
+    "asimov-pill": "git@github.com:99designs/asimov-pill#^4.0.0",
+    "asimov-table": "git@github.com:99designs/asimov-table#^2.0.0",
+    "asimov-background": "git@github.com:99designs/asimov-background.git#^1.0.0",
+    "asimov-badge": "git@github.com:99designs/asimov-badge.git#^2.0.0",
+    "asimov-progress-bar": "git@github.com:99designs/asimov-progress-bar#^2.0.0",
+    "asimov-grouped-list": "git@github.com:99designs/asimov-grouped-list.git#^4.0.0",
+    "asimov-heading": "git@github.com:99designs/asimov-heading.git#^2.0.0",
+    "asimov-payment-summary": "git@github.com:99designs/asimov-payment-summary.git#^2.0.0",
+    "asimov-grid": "git@github.com:99designs/asimov-grid#^2.0.0",
+    "asimov-matrix": "git@github.com:99designs/asimov-matrix#^1.0.0",
+    "asimov-image-package": "git@github.com:99designs/asimov-image-package.git#^1.0.0",
+    "asimov-image-press-logo": "git@github.com:99designs/asimov-image-press-logo.git#^1.0.0",
+    "asimov-image-logo": "git@github.com:99designs/asimov-image-logo.git#^1.1.0",
+    "asimov-image-payment-method": "git@github.com:99designs/asimov-image-payment-method.git#^1.0.0",
+    "asimov-saved-payment-method": "git@github.com:99designs/asimov-saved-payment-method#^2.0.0",
+    "asimov-promo-bar": "git@github.com:99designs/asimov-promo-bar.git#^3.0.0",
+    "asimov-navigation": "git@github.com:99designs/asimov-navigation.git#^2.0.0",
+    "asimov-icon": "git@github.com:99designs/asimov-icon.git#^7.9.1",
+    "asimov-marketing-icon": "git@github.com:99designs/asimov-marketing-icon.git#^1.11.0",
+    "asimov-modal": "git@github.com:99designs/asimov-modal#^1.0.0",
+    "asimov-spinner": "git@github.com:99designs/asimov-spinner.git#^1.0.0",
+    "asimov-tooltip": "git@github.com:99designs/asimov-tooltip#^5.0.0",
+    "asimov-uploader": "git@github.com:99designs/asimov-uploader.git#^2.0.0",
+    "asimov-media-query-label": "git@github.com:99designs/asimov-media-query-label.git#^1.0.0",
+    "asimov-dropdown": "git@github.com:99designs/asimov-dropdown.git#^2.0.0",
+    "asimov-button": "git@github.com:99designs/asimov-button.git#^2.0.0",
+    "asimov-menu": "git@github.com:99designs/asimov-menu.git#^2.0.0",
+    "asimov-detached-dropdown": "git@github.com:99designs/asimov-detached-dropdown.git#^3.2.0",
+    "brand-container": "git@github.com:99designs/brand-container.git#^8.0.0",
+    "console-polyfill": "~0.1.1",
+    "intl-99": "git@github.com:99designs/intl-99#^1.0.0",
+    "jquery-pjax": "~1.8.2",
+    "google-code-prettify": "~1.0.1",
+    "asimov-comments": "git@github.com:99designs/asimov-comments.git#~0.0.2",
+    "underscore": "~1.6.0",
+    "video.js": "~4.7.1",
+    "flight-with-child-components": "~0.2.2",
+    "markdown": "~0.5.0",
+    "asimov-mediabox": "git@github.com:99designs/asimov-mediabox.git#^3.0.0",
+    "asimov-ribbon": "git@github.com:99designs/asimov-ribbon.git#^1.0.0",
+    "fastclick": "~1.0.3",
+    "fine-uploader-5": "git@github.com:xzyfer/fine-uploader#^5.0.9",
+    "translate": "git@github.com:michaeldewildt/jquery-translate.git#master",
+    "webpack-jasmine-flight": "git@github.com:andrewk/webpack-jasmine-flight.git#^5.0.0",
+    "jasmine-ajax": "~2.0.1",
+    "jasmine-jquery": "~2.0.5",
+    "velocity": "~1.2.2"
+  },
+  "exportsOverride": {
+    "flight": {
+      "js": "lib/*.js"
+    },
+    "vandamme-js": {
+      "js": "src/*.js"
+    },
+    "brand-container": {
+      "js": "lib/*.js"
+    }
+  },
+  "resolutions": {
+    "asimov-flag": "^2.0.0",
+    "asimov-typography": "^2.0.0",
+    "jquery": ">=2",
+    "asimov-pill": "^4.0.0"
+  }
+}
